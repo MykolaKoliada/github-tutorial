@@ -1,0 +1,33 @@
+.slider {
+  width: 1280px;
+  padding: 0, 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slider-kard {
+}
+.slider-txt {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+
+.slick-prev:before {
+    content: '←';
+    color: red;
+}
+.slick-prev:before, .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+}
+    .slick-next:before {
+        content: '→';
+        color: red;
+    }
